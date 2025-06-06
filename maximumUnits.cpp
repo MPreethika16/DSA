@@ -8,7 +8,7 @@ public:
                     maxi=j;
 
                 }
-            }
+            }   
             swap(boxTypes[i],boxTypes[maxi]);
         }
         int total=0;
