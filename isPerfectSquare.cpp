@@ -9,7 +9,7 @@ public:
             long long mid=(low+high)/2;
             if(mid*mid==num){
                 return true;
-            }
+            } 
             if(mid*mid<num){
                 low=mid+1;
             }
