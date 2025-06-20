@@ -12,7 +12,7 @@ public:
             } 
             if(mid*mid<num){
                 low=mid+1;
-            }
+            } 
             else{
                 high=mid-1;
             }
