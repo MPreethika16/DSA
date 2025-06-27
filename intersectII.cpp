@@ -12,7 +12,7 @@ public:
             mp[num]++;
         }
         for(int num:nums2){
-            if(mp.find(num)!=mp.end()&&mp[num]>0){
+            if(mp.find(num)!=mp.end()&&mp[num]>0){ 
                 res.push_back(num);
                 mp[num]--;
             }
